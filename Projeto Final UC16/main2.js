@@ -5,13 +5,9 @@ function validarLogin() {
     let emailArmazenado = localStorage.getItem("email");
     let senhaArmazenado = localStorage.getItem("senha");
 
-    if(email === 'pollyanaMoça@gmail.com' && senha === '@Pollyana2024'){
-        alert("Login Bem-Sucedido");
-        window.location.href= "indexMenu.html";
-
-    } if (email.trim() === emailArmazenado.trim() && senha.trim() === senhaArmazenado) {
+    if (email.trim() === emailArmazenado.trim() && senha.trim() === senhaArmazenado) {
         alert("Login Bem-Sucetido !");
-        window.location.href = "indexMenu2.html";
+        window.location.href = "indexMenu.html";
     } else {
         alert("E-mail ou Senha incorreto !");
     }
