@@ -1,79 +1,75 @@
-/* Definições globais */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Estilo para imagens dentro do container */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .container img {
   max-width: 100%;
   height: auto;
 }
 
-/* Estilo para o elemento com ID "slide" e classe "FadeOut" */
 #slide.FadeOut {
   opacity: 0.2;
 }
 
-/* Estilo para o elemento com ID "slide" e transição de opacidade */
 #slide {
   transition: opacity 2s;
   opacity: 1;
 }
 
-/* Estilo para o título h1 */
 h1 {
-  background-color: rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
+  background-color:  rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
   color: #fff;
   padding: 20px;
   text-align: center;
 }
 
-/* Estilo para subtítulo h3 */
 h3 {
   background-color: #333; /* Cinza escuro */
   color: #fff;
   padding: 20px;
   text-align: center;
   font-family: 'Arial', sans-serif;
-  font-size: larger;
+ font-size: larger;
+  
 }
 
-/* Estilo para subtítulo h6 */
-h6 {
+h6{
   background-color: #333;
   color: #fff;
   padding: 20px;
   text-align: center;
   font-family: 'Arial', sans-serif;
   font-size: large;
+  
+
 }
 
-/* Estilo para h3 dentro de um artigo */
 article h3 {
   font-family: 'Cambria', 'Times New Roman', serif;
   font-size: larger;
   text-align: center;
-  color: rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
+  color:  rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
 }
 
-/* Estilo para o cabeçalho */
 header {
   padding: 15px;
-  background-color: rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
+  background-color:  rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
   color: #fff;
   font-size: 16px;
   font-family: 'Arial', sans-serif;
 }
-
-/* Estilo para a imagem dentro do cabeçalho */
 header img {
-  width: 15%;
+  width:15%; 
   height: auto;
 }
 
-/* Estilo para o contêiner de pesquisa */
+
 .search-container {
   display: flex;
   justify-content: center;
@@ -81,7 +77,6 @@ header img {
   margin-top: 10px;
 }
 
-/* Estilo para a entrada de pesquisa */
 .search-input {
   width: 70%;
   padding: 10px;
@@ -90,14 +85,12 @@ header img {
   border-radius: 25px;
 }
 
-/* Estilo para a caixa de pesquisa */
 .caixa-de-pesquisa {
   display: flex;
   align-items: center;
   margin-top: -150px; /* Mover para cima */
 }
 
-/* Estilo para o campo de texto na caixa de pesquisa */
 .caixa-de-pesquisa input[type="text"] {
   padding: 10px;
   border-radius: 25px;
@@ -109,12 +102,10 @@ header img {
   outline: none;
 }
 
-/* Estilo para o texto de espaço reservado na caixa de pesquisa */
 .caixa-de-pesquisa input[type="text"]::placeholder {
-  color: #333; /* Cor do texto de espaço reservado branco */
+  color: #333; /* Cor do texto de placeholder branco */
 }
 
-/* Estilo para o botão na caixa de pesquisa */
 .caixa-de-pesquisa button {
   background-color: #ff4f87; /* Rosa mais forte */
   color: #fff; /* Cor do texto branco */
@@ -132,25 +123,23 @@ header img {
   background-color: #ff3366; /* Rosa mais forte no hover */
 }
 
-/* Estilo para o botão de pesquisa */
 .pesquisa-btn {
-  background-color: #ff4f87;
-  color: #fff;
+  background-color: #ff4f87; 
+  color: #fff; 
   border: none;
   border-radius: 25px;
-  padding: 12px 24px;
+  padding: 12px 24px; 
   cursor: pointer;
   margin-left: 10px;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
+  font-size: 16px; 
+  transition: background-color 0.3s ease; 
 }
 
-/* Adicionando um estilo de hover para o botão de pesquisa */
 .pesquisa-btn:hover {
-  background-color: #ff3366;
+  background-color: #ff3366; 
 }
 
-/* Estilo para a barra de navegação */
+
 nav {
   display: flex;
   justify-content: center;
@@ -159,19 +148,16 @@ nav {
   padding: 15px;
 }
 
-/* Estilo para a lista não ordenada na barra de navegação */
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* Estilo para os itens da lista na barra de navegação */
 nav ul li {
   display: inline-block;
 }
 
-/* Estilo para os links na barra de navegação */
 nav ul li a {
   display: inline;
   margin-right: 20px;
@@ -181,16 +167,14 @@ nav ul li a {
   font-weight: bold;
 }
 
-/* Adicionando um estilo de hover para os links na barra de navegação */
 nav ul li a:hover {
-  color: rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
+  color:  rgb(248, 79, 135) /* Tom de rosa mais forte e escuro */
 }
 
-/* Estilo para botões genéricos */
 button {
   cursor: pointer;
   border: none;
-  background-color: rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
+  background-color:  rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
   color: #fff;
   padding: 10px 20px;
   border-radius: 25px;
@@ -198,17 +182,14 @@ button {
   transition: background-color 0.3s ease-in-out;
 }
 
-/* Adicionando um estilo de hover para botões genéricos */
 button:hover {
-  background-color: rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
+  background-color:  rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
 }
 
-/* Adicionando um estilo de clique para botões genéricos */
 button:active {
-  background-color: rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
+  background-color:  rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
 }
 
-/* Estilo para o carrinho flutuante */
 #carrinho-tab {
   position: absolute;
   top: 185px;
@@ -217,30 +198,26 @@ button:active {
   color: #fff;
   padding: 15px;
   border-radius: 30px;
-  cursor: pointer;
+  cursor: pointer ;
   z-index: 1000;
   display: flex;
-  align-items: center;
+  align-items: center; 
 }
 
-/* Estilo para a imagem dentro do carrinho flutuante */
 #carrinho-tab img {
-  width: 55px; /* Ajuste a largura conforme necessário */
+  width: 55px; /* Adjust the width as needed */
   height: auto;
   margin-right: 20px;
 }
 
-/* Adicionando um estilo de hover para o carrinho flutuante */
 #carrinho-tab:hover {
   background-color: rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
 }
 
-/* Adicionando a imagem real ao carrinho flutuante */
 #carrinho-tab img {
   content: url('imagens/carrinho.png'); /* Substitua pelo caminho real da sua imagem */
 }
 
-/* Estilo para o contêiner do carrinho */
 #carrinho {
   display: none;
   position: fixed;
@@ -252,42 +229,40 @@ button:active {
   border-radius: 15px;
   z-index: 999;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-height: 400px; /* Ajuste a altura máxima conforme necessário */
-  overflow-y: auto; /* Adicionando uma barra de rolagem quando o conteúdo ultrapassa */
+  max-height: 400px; /* Adjust the max height as needed */
+  overflow-y: auto; /* Add a scroll when content overflows */
+  
 }
 
-/* Estilo para o título dentro do carrinho */
 #carrinho h2 {
   margin-bottom: 15px;
   font-size: 20px;
   color: rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
 }
 
-/* Estilo para o total do carrinho */
 #total-carrinho {
   font-weight: bold;
   font-size: 18px;
   color: rgb(248, 79, 135); /* Tom de rosa mais forte e escuro */
 }
 
-/* Adicionando uma transição para um efeito suave de hover */
+/* Add transition for smooth hover effect */
 #carrinho-tab, #carrinho-tab:hover, #carrinho-tab img {
   transition: background-color 0.3s ease-in-out;
 }
 
-/* Estilo para imagens genéricas */
+
+
 img {
   width: 100px;
   height: 150px;
 }
 
-/* Estilo para a seção de produtos */
 #produtos {
   text-align: center;
   padding: 20px;
 }
 
-/* Estilo para itens na lista de produtos */
 #produtos li {
   display: flex;
   flex-direction: column;
@@ -303,12 +278,10 @@ img {
   transition: transform 0.3s ease-in-out;
 }
 
-/* Adicionando um efeito de escala ao passar o mouse sobre os itens da lista de produtos */
 #produtos li:hover {
   transform: scale(1.05);
 }
 
-/* Estilo para imagens dentro dos itens da lista de produtos */
 #produtos li img {
   width: 100%;
   height: auto;
@@ -317,21 +290,18 @@ img {
   object-fit: cover;
 }
 
-/* Estilo para o título h4 nos itens da lista de produtos */
 #produtos h4 {
   font-size: 18px;
   margin: 10px 0;
   color: #ff4f87; /* Cor rosa mais forte para o título */
 }
 
-/* Estilo para o texto span nos itens da lista de produtos */
 #produtos span {
   font-size: 16px;
   color: #ff4f87;
   margin-bottom: 10px;
 }
 
-/* Estilo para a entrada de quantidade nos itens da lista de produtos */
 #produtos input {
   width: 60px;
   padding: 8px;
@@ -342,7 +312,6 @@ img {
   font-size: 14px;
 }
 
-/* Estilo para botões nos itens da lista de produtos */
 #produtos button {
   margin-top: 10px;
   padding: 12px 20px;
@@ -355,12 +324,10 @@ img {
   transition: background-color 0.3s ease;
 }
 
-/* Adicionando um efeito de hover para os botões nos itens da lista de produtos */
 #produtos button:hover {
   background-color: #ff3366;
 }
 
-/* Estilo para a lista de produtos */
 #produtos ul {
   display: flex;
   flex-wrap: wrap;
@@ -370,71 +337,62 @@ img {
   margin: 0;
 }
 
-/* Mídia consultada para telas menores (largura máxima de 768 pixels) */
 @media (max-width: 768px) {
-  /* Ajuste para a largura total dos itens da lista de produtos */
   #produtos li {
     width: 100%;
   }
 }
 
-/* Estilo para o rodapé */
+
+
 footer {
   background-color: #333;
-  color: #fff;
+  color: #fff; 
   padding: 20px 0;
 }
 
-/* Estilo para o contêiner do rodapé */
 .footer-container {
   display: flex;
   justify-content: space-around;
 }
 
-/* Estilo para as seções no rodapé */
 .footer-section {
   width: 200px;
 }
 
-/* Estilo para o título h3 nas seções do rodapé */
 .footer-section h3 {
-  color: #ff69b4;
+  color: #ff69b4; 
 }
 
-/* Estilo para as listas não ordenadas nas seções do rodapé */
 .footer-section ul {
   list-style: none;
   padding: 0;
 }
 
-/* Estilo para os itens de lista nas seções do rodapé */
 .footer-section ul li {
   margin-bottom: 8px;
 }
 
-/* Estilo para o aviso de direitos autorais no rodapé */
 .copyright {
   text-align: center;
   margin-top: 20px;
 }
 
-/* Estilo para links */
+
 a {
   color: #ff69b4;
   text-decoration: none;
 }
 
-/* Adicionando um estilo de hover para links */
 a:hover {
   text-decoration: underline;
 }
-
-/* Estilo para a propaganda com ID "propaganda2" */
 #propaganda2 {
-  max-width: 1000px;
+  max-width: 1000px; 
   margin: 20px auto;
   overflow: hidden;
   border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #propaganda2 img {
@@ -443,8 +401,8 @@ a:hover {
   object-fit: cover;
   object-position: center;
   transition: transform 0.5s ease-in-out;
-
 }
+
 
 #propaganda2 img:hover {
   transform: scale(1.05);
