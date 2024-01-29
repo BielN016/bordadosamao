@@ -6,44 +6,45 @@ function validarFormulario() {
     var senha = document.forms["formulario"]["senha"].value;
 
     if (nome == "") {
-        alert("Por favor insira seu nome !");
+        alert("Por favor insira seu nome!");
         return false;
     }
 
     if (email == "") {
-        alert("Por favor insira seu email !");
+        alert("Por favor insira seu email!");
         return false;
     } else if (!validarEmail(email)) {
-        alert("Por favor insira algum E-mail válido !");
+        alert("Por favor insira um e-mail válido!");
         return false;
     }
 
     if (cep == "") {
-        alert("Por favor insira seu CEP !");
+        alert("Por favor insira seu CEP!");
         return false;
     }
 
     if (telefone == "") {
-        alert("Por favor insira seu telefone !");
+        alert("Por favor insira seu telefone!");
         return false;
     } 
 
     if (senha == "") {
-        alert("Por favor crie uma senha caso já tenha insira !");
+        alert("Por favor crie uma senha ou insira uma existente!");
         return false;
     } else if (!validarSenha(senha)) {
-        alert("A senha deve conter pelo menos 8 caracteres, incluindo pelo menos um número, uma letra minúscula e uma letra maiúscula e caracteres especiais.");
+        alert("A senha deve conter pelo menos 8 caracteres, incluindo pelo menos um número, uma letra minúscula, uma letra maiúscula e caracteres especiais.");
         return false;
     }
 
-    localStorage.setItem("nome", nome);
-    localStorage.setItem("email", email);
-    localStorage.setItem("cep", cep);
-    localStorage.setItem("telefone", telefone);
-    localStorage.setItem("senha", senha);
+    localStorage.setItem("nome",nome);
+    localStorage.setItem("email",email);
+    localStorage.setItem("cep",cep);
+    localStorage.setItem("telefone",telefone);
+    localStorage.setItem("senha",senha);
 
     return true;
 }
+
 
 function validarEmail(email) {
     return email.includes("@") && email.includes(".");
@@ -62,3 +63,4 @@ function exibirDados() {
 
     alert("Nome: " + nome + "\nE-mail: " + email + "\nCEP: " + cep + "\nTelefone: " + telefone + "\nSenha: " + senha + "\nDados de cadastro salvos com sucesso !");
 }
+
