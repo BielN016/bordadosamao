@@ -20,3 +20,5 @@ while(localStorage.getItem("produto" + i) !== null) {
 document.getElementById("itens").innerHTML = itemsHTML;
 document.getElementById("total").innerHTML = "Total: R$ " + total.toFixed(2);
     
+
+
