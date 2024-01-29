@@ -1,59 +1,74 @@
+/* Estilos para o corpo da página */
 body {
-    background-color: #fefefe; /* Alterei a cor de fundo para um tom mais claro */
+    background-color: #f4f4f4; /* Fundo mais claro */
     color: #333;
     font-family: 'Arial', sans-serif;
+    margin: 0;
 }
 
+/* Estilos para o título principal (h1) */
 h1 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    color: #e60073; /* Alterei a cor para um tom de rosa mais suave */
+    color: #e60073;
     padding: 20px;
     margin: auto;
-    background-color: #fff; /* Fundo branco para destacar o título */
-    border-bottom: 2px solid #f0f0f0;
+    background-color: #333; /* Fundo branco para o título */
+    border-bottom: 2px solid #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilos para a barra de navegação */
 nav {
     text-align: center;
     color: #e60073;
+    margin-bottom: 20px;
 }
 
-form {
-    max-width: 500px;
-    width: 100%;
-    background-color: #fff;
-    border-radius: 15px; /* Reduzi o raio do border-radius para uma aparência mais suave */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+/* Estilos para o cabeçalho */
+header {
     padding: 30px;
-    margin: 30px auto; /* Ajustei a margem para um espaçamento mais uniforme */
+    background-color: #333; /* Rosa mais forte */
+    text-align: center;
+    color: #fff; /* Texto branco */
+    clear: both;
 }
 
+/* Estilos para o formulário */
+form {
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff; /* Fundo branco */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 30px auto;
+}
+
+/* Estilos para rótulos em formulários */
 label {
-    color: #333;
+    color: #555; /* Texto mais escuro para o rótulo */
     display: block;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-/* Restante do seu CSS... */
-
-/* Estilos para os campos de entrada (input) */
+/* Estilos para campos de entrada de texto e outros */
 input[type="text"],
 input[type="email"],
 input[type="number"],
 input[type="password"] {
-    background-color: #f9e6e6;
+    background-color: #f9e6e6; /* Rosa mais claro */
     border: 1px solid #e2bcbc;
     border-radius: 5px;
     color: #333;
     font-size: 16px;
-    padding: 10px;
+    padding: 12px;
     width: 100%;
     margin-bottom: 20px;
 }
 
-/* Estilos para os botões (input submit, input button, button) */
+/* Estilos para botões e botões de envio em formulários */
 input[type="submit"],
 input[type="button"],
 button,
@@ -64,13 +79,13 @@ article button {
     color: #fff;
     cursor: pointer;
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
     width: 100%;
     margin-bottom: 15px;
     transition: background-color 0.3s ease-in-out;
 }
 
-/* Efeito hover nos botões */
+/* Estilos para efeito hover em botões */
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button:hover,
@@ -78,43 +93,47 @@ article button:hover {
     background-color: #ff99b3;
 }
 
-/* Estilos para os formulários (form) e seus títulos (h3) */
-form {
-    max-width: 500px;
-    width: 100%;
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    margin: 30px auto;
-}
-
+/* Estilos para títulos secundários (h3) */
 h3 {
     text-align: center;
     color: #e60073;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+    margin-bottom: 20px;
 }
 
+/* Estilos específicos para títulos h3 dentro de formulários */
 form h3 {
     font-size: smaller;
 }
 
-/* Restante do seu CSS... */
+/* Estilos para links que parecem botões */
+.button-link {
+    background: none;
+    border: none;
+    padding: 5;
+    font: inherit;
+    cursor: pointer;
+    color: #4b0082; /* Roxo escuro */
+    text-decoration: underline;
+    margin-top: -30px; /* Adicione um valor negativo para mover para cima */
+}
 
-
+/* Estilos para o rodapé da página */
 footer {
-    padding: 20px;
-    background-color: #333; /* Cor mais escura para o rodapé */
+    padding: 30px;
+    background-color: #333; /* Rosa mais forte */
     text-align: center;
-    color: #e60073;
+    color: #fff; /* Texto branco */
     clear: both;
 }
 
+/* Estilos para imagens na página */
 img {
-    width: 50%;
+    width: 40%;
     height: auto;
-    display: block; /* Faz com que a imagem seja exibida como um bloco para centralizá-la */
-    margin: 0 auto; /* Configura margens automáticas para centralizar a imagem horizontalmente */
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
